@@ -11,7 +11,7 @@ This project demonstrates a pipeline for processing images using OCR (Optical Ch
 
 2. **Phase 2: Generative AI Integration**
    - Uses OpenAI's API to analyze the OCR output.
-   - Employs a language model (e.g., gpt-4o-mini) to interpret the extracted text.
+   - Employs a language model (e.g., gpt-4o-mini, gemini-flash) to interpret the extracted text.
    - Provides insights and analysis based on the content of the image.
 
 3. **Phase 3: Thematic Data Grouping (Not implemented yet)**
@@ -22,7 +22,7 @@ This project demonstrates a pipeline for processing images using OCR (Optical Ch
 * `pytesseract`
 * `Pillow` (PIL)
 * `openai`
-
+* `google-generativeai`
 ## Usage
 
 1. Install the necessary dependencies.
